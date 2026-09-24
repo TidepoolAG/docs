@@ -8,6 +8,7 @@ These pages are Markdown copies of the pages on tidepool.ag. The website is the 
 
 ## Pages
 
+- [Get started](start.md): your first LP position in 5 minutes from $20
 - [What is Tidepool](about.md): features, chains, pricing, FAQ
 - [Docs](docs.md): what providing liquidity is, why the range decides the outcome, what an LP earns and risks, how opening, claiming, closing, rebalancing and exits work
 - [Tidepool vs HawkFi](compare/hawkfi.md)

@@ -17,6 +17,7 @@ Key facts:
 
 ## Pages
 
+- [Get started](https://tidepool.ag/start): your first LP position in 5 minutes from $20: wallet, funds, pool, range, claim, close; costs and risks
 - [What is Tidepool](https://tidepool.ag/about): definition, features, chains, pricing, FAQ
 - [Docs](https://tidepool.ag/docs): what providing liquidity is, why the price range decides the outcome, what an LP earns and risks, a walk through opening a position, and how claiming, closing, rebalancing and automatic exits work
 - [Tidepool vs HawkFi](https://tidepool.ag/compare/hawkfi): the social layer of LPing (feed, leaderboard, copy with creator share) and one flow across four chains, versus an LP automation terminal for Solana and Robinhood Chain; 3% versus 8% of fees
