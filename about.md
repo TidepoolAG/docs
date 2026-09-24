@@ -22,6 +22,7 @@ Concentrated-liquidity DEXes pay the best fees in DeFi, but each one has its own
 | Base | Uniswap v3, Uniswap v4 | Yes | Yes |
 | Robinhood Chain | Uniswap v3, Uniswap v4 | Yes | Yes |
 | Arc | Uniswap v3, Uniswap v4 | Yes | Yes |
+| HyperEVM (Hyperliquid) | Project X | Yes | Yes |
 | Ethereum | Uniswap v3, Uniswap v4 | Yes | Claim and close only |
 
 ## Non-custodial by design
