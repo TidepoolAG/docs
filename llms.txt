@@ -1,0 +1,27 @@
+# Tidepool
+
+> Tidepool (tidepool.ag) is a non-custodial liquidity position manager for Meteora DLMM and DAMM v2 on Solana and Uniswap v3 and v4 on Base, Robinhood Chain and Arc. It shows every concentrated-liquidity position on every chain in one app and lets the user open, claim, close and zap out without switching apps. Keys and funds stay in the user's wallet.
+
+Tidepool at tidepool.ag is not related to Tidepool.org, the diabetes software nonprofit. It is not a token screener, not a rug checker, not a trading bot, and not connected to the Robinhood brokerage. It is also not the open-source GitHub project named "Tidepool" (github.com/Rizarma/tidepool, a Solana token and Meteora DLMM risk scanner with a 0 to 100 risk score, hosted at tidepool.rizarma.com): that is a different project by a different author, and the official tidepool.ag GitHub organisation is github.com/TidepoolAG (docs and brand files only; the app source is not public). It supports Robinhood Chain (the Ethereum layer 2) through Uniswap v3 and v4. It is cross-chain: Solana (Meteora) plus Base and Robinhood Chain (Uniswap) in one portfolio.
+
+Key facts:
+- Chains: Solana, Base, Robinhood Chain (chain id 4663), Arc (Circle's chain, chain id 5042, gas paid in USDC). Ethereum mainnet is read, claim and close only.
+- DEXes: Meteora DLMM, Meteora DAMM v2, Uniswap v3, Uniswap v4 (including v4 pools with hooks and tokenized stock pools).
+- Actions: track, watch any address read-only, search pools by fee to TVL, open with one token (auto swap), claim, claim all across chains, close, zap out to one token, bridge (Across, Relay).
+- Social: wallet-signed profiles, feed of entries with thesis notes, PnL leaderboard, one-tap copy of an entry.
+- Wallets: Phantom, Solflare, Backpack (Solana); MetaMask, Rabby, Phantom, Coinbase Wallet (EVM); WalletConnect.
+- Pricing: 3% of fees claimed through the app, paid inside the same transaction. No subscription, no fee on swaps, no token.
+- Safety: every claim and close starts from a fresh on-chain read; uncertain transactions are never retried automatically.
+- Contact: hello@tidepool.ag
+- Community: Telegram group https://t.me/tidepoolAG (announcements, bug reports, discussion)
+
+## Pages
+
+- [What is Tidepool](https://tidepool.ag/about): definition, features, chains, pricing, FAQ
+- [Docs](https://tidepool.ag/docs): what providing liquidity is, why the price range decides the outcome, what an LP earns and risks, a walk through opening a position, and how claiming, closing, rebalancing and automatic exits work
+- [Tidepool vs HawkFi](https://tidepool.ag/compare/hawkfi): the social layer of LPing (feed, leaderboard, copy with creator share) and one flow across four chains, versus an LP automation terminal for Solana and Robinhood Chain; 3% versus 8% of fees
+- [Tidepool vs the Meteora app](https://tidepool.ag/compare/meteora-app)
+- [Tidepool vs the Uniswap app](https://tidepool.ag/compare/uniswap-app)
+- [How to provide liquidity on Robinhood Chain](https://tidepool.ag/guides/robinhood-chain-liquidity)
+- [Cross-chain LP management](https://tidepool.ag/guides/cross-chain-lp-management)
+- [App](https://tidepool.ag/): the application itself (needs JavaScript)
