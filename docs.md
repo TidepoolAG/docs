@@ -120,7 +120,7 @@ It works through a one-time approval. The contract can remove your liquidity and
 
 ## Who moves your tokens
 
-Swaps go through Jupiter on Solana and the Uniswap routers on EVM chains. Bridges go through Across and Relay. Tidepool never holds your funds in between.
+Swaps go through Jupiter on Solana and the Uniswap routers on EVM chains. Bridges go through Relay. Tidepool never holds your funds in between.
 
 ## Known limits
 

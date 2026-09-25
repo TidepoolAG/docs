@@ -16,7 +16,7 @@ The positions. A DLMM or DAMM v2 position is an on-chain account owned by your w
 | One-token entry | Swap and deposit in one Solana transaction when it fits | Auto-fill within the pool's own pair |
 | Zap out | Close and swap to one token in one flow | Withdraw, then swap elsewhere |
 | Watch any address | Yes, read-only, no wallet | Connect wallet |
-| Bridging | Across and Relay inside the app | No |
+| Bridging | Relay inside the app | No |
 | Tokenized stocks filter | xStocks, Robinhood tokens, Dinari, Ondo | No filter |
 | Feed and leaderboard | Follow LPs, copy an entry with its range, PnL ranking | No |
 | Fee | 3% of claimed fees | Protocol fee only |

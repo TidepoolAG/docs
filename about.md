@@ -11,7 +11,7 @@ Concentrated-liquidity DEXes pay the best fees in DeFi, but each one has its own
 -   **Open.** A four-step wizard: pool, range, amount, confirm. Enter with one token and Tidepool swaps into the split the range needs, through Jupiter on Solana or the pool itself on EVM.
 -   **Claim.** One tap per position, or "Claim all" across every chain. Uniswap v3 claims can sell the fees to one token in the same transaction.
 -   **Close and zap out.** Close a position and swap everything to one token in one flow.
--   **Bridge.** Move funds between Base, Robinhood Chain and Solana from inside the app through Across and Relay.
+-   **Bridge.** Move funds between Solana, Ethereum, Base, Robinhood Chain, Arc and HyperEVM from inside the app through Relay, with gas on arrival when you have none yet.
 -   **Share.** Profiles, a feed of entries with thesis notes, and a PnL leaderboard so you can follow LPs who do well and enter the same positions.
 
 ## Supported chains and DEXes

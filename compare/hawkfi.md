@@ -9,7 +9,7 @@ HawkFi is an automation terminal: you pick one of its models, and its bots run y
 | What it is | Social LP app: follow, copy and run positions on every chain | Automation terminal for LP bots, agents and backtests |
 | Chains | Solana, Base, Robinhood Chain and Arc in one app (Ethereum: track, claim, close) | Solana and Robinhood Chain, each with its own strategies and docs |
 | DEXes | Meteora DLMM, Meteora DAMM v2, Uniswap v3, Uniswap v4 | Meteora DLMM on Solana; Robinhood Chain pools |
-| Move money between chains | Bridge built in (Across, Relay), inside the same flow | No bridge in its docs; its Robinhood guide asks you to have ETH there already |
+| Move money between chains | Bridge built in (Relay), inside the same flow | No bridge in its docs; its Robinhood guide asks you to have ETH there already |
 | Portfolio | Every position on every chain in one list; Claim all in one pass | Separate Solana and Robinhood Chain sections |
 | Social | Profiles, follows, a feed of entries with the range and a thesis, PnL leaderboard, copy an entry in one tap | Referral codes |
 | Reward for good LPs | When someone copies your entry, you get 2% of the fees they claim (on Meteora, only while they are in profit) | None |

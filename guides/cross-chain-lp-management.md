@@ -18,7 +18,7 @@ You connect one Solana wallet and one EVM wallet, or paste addresses to watch re
 
 ## Move capital between chains
 
-The Deposit sheet bridges from inside the app. Across handles the routes between Base, Robinhood Chain and Arc (USDC or ETH; Robinhood Chain receives USDG, and Arc receives USDC, which is also its gas token). Relay handles any route that touches Solana with one signature; the solver pays the destination gas. You can go from a closed DLMM position on Solana to a new Uniswap position on Base without leaving Tidepool.
+The Deposit sheet bridges from inside the app through Relay, with one signature on every route (USDC or ETH; Robinhood Chain receives USDG, and Arc receives USDC, which is also its gas token). The solver pays the destination gas, and _Gas on arrival_ adds a little of the gas coin when you have none there yet. You can go from a closed DLMM position on Solana to a new Uniswap position on Base without leaving Tidepool.
 
 ## What to watch when you LP on several chains
 

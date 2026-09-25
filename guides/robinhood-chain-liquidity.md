@@ -18,7 +18,7 @@ Robinhood Chain is an Ethereum layer 2 built on Arbitrum Nitro (chain id 4663, m
 ## Step by step in Tidepool
 
 1.  **Connect** an EVM wallet (MetaMask, Rabby, Phantom, Coinbase Wallet) on [tidepool.ag](https://tidepool.ag/).
-2.  **Bridge in** through the Deposit sheet. Across moves ETH or USDC from Base; Relay moves funds from Solana. Robinhood Chain receives USDG for USDC.
+2.  **Bridge in** through the Deposit sheet. Relay moves ETH or USDC from Base, Solana and the other chains. Robinhood Chain receives USDG for USDC.
 3.  **Search** with the Robinhood Chain filter and sort by 24h fee to TVL. Use the Assets filter to see stock pools only or hide them.
 4.  **Range.** Pick ticks on the candle chart. For stock pools, the chart shows the last traded price, which stays flat while the market is closed.
 5.  **Amount.** Enter one token. Tidepool swaps the rest through the pool you are entering and mints the position. v4 mints are sized with room for a price move and capped at the amounts you entered.
