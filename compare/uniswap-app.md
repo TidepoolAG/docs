@@ -20,7 +20,7 @@ The positions. A Uniswap v3 position is an NFT from the NonfungiblePositionManag
 | Tokenized stocks | Filter for Robinhood tokens, Base equity tokens, Dinari, Ondo | No filter |
 | Watch any address | Yes, read-only | Connect wallet |
 | Bridging | Relay inside the app, including to Solana | Uniswap bridge for EVM chains |
-| Fee | 3% of claimed fees | Interface fee on swaps |
+| Fee | 3% of claimed fees (1% on Robinhood Chain) | Interface fee on swaps |
 
 ## Robinhood Chain
 

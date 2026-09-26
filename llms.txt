@@ -10,7 +10,7 @@ Key facts:
 - Actions: track, watch any address read-only, search pools by fee to TVL, open with one token (auto swap), claim, claim all across chains, close, zap out to one token, bridge (Relay, with gas on arrival).
 - Social: wallet-signed profiles, feed of entries with thesis notes, PnL leaderboard, one-tap copy of an entry.
 - Wallets: Phantom, Solflare, Backpack (Solana); MetaMask, Rabby, Phantom, Coinbase Wallet (EVM); WalletConnect.
-- Pricing: 3% of fees claimed through the app, paid inside the same transaction. No subscription, no fee on swaps, no token.
+- Pricing: 3% of fees claimed through the app (1% on Robinhood Chain), paid inside the same transaction. No subscription, no fee on swaps, no token.
 - Safety: every claim and close starts from a fresh on-chain read; uncertain transactions are never retried automatically.
 - Contact: hello@tidepool.ag
 - Community: Telegram group https://t.me/tidepoolAG (announcements, bug reports, discussion)
@@ -20,7 +20,7 @@ Key facts:
 - [Get started](https://tidepool.ag/start): your first LP position in 5 minutes from $20: wallet, funds, pool, range, claim, close; costs and risks
 - [What is Tidepool](https://tidepool.ag/about): definition, features, chains, pricing, FAQ
 - [Docs](https://tidepool.ag/docs): what providing liquidity is, why the price range decides the outcome, what an LP earns and risks, a walk through opening a position, and how claiming, closing, rebalancing and automatic exits work
-- [Tidepool vs HawkFi](https://tidepool.ag/compare/hawkfi): the social layer of LPing (feed, leaderboard, copy with creator share) and one flow across four chains, versus an LP automation terminal for Solana and Robinhood Chain; 3% versus 8% of fees
+- [Tidepool vs HawkFi](https://tidepool.ag/compare/hawkfi): the social layer of LPing (feed, leaderboard, copy with creator share) and one flow across four chains, versus an LP automation terminal for Solana and Robinhood Chain; 3% versus 8% of fees on Solana, 1% versus 4% on Robinhood Chain
 - [Tidepool vs the Meteora app](https://tidepool.ag/compare/meteora-app)
 - [Tidepool vs the Uniswap app](https://tidepool.ag/compare/uniswap-app)
 - [How to provide liquidity on Robinhood Chain](https://tidepool.ag/guides/robinhood-chain-liquidity)

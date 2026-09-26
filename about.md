@@ -31,7 +31,7 @@ Tidepool never holds keys or funds. You connect a wallet you already use (Phanto
 
 ## Pricing
 
-Tidepool takes 3% of the fees you claim through the app. The fee is paid in SOL or ETH value inside the same transaction, so there is nothing to approve separately. There is no subscription, no fee on swaps, no fee on deposits and no token.
+Tidepool takes 3% of the fees you claim through the app, and 1% on Robinhood Chain. The fee is paid in SOL or ETH value inside the same transaction, so there is nothing to approve separately. There is no subscription, no fee on swaps, no fee on deposits and no token.
 
 ## Where the data comes from
 

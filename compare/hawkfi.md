@@ -16,7 +16,7 @@ HawkFi is an automation terminal: you pick one of its models, and its bots run y
 | How you open a position | The same flow on every chain: pick a pool, drag the range on the chart, deposit from one token | Pick one of 18 named Solana models (Precision Curve, HFL, Heart Attack and more) or a Robinhood strategy, then set automations |
 | Automation | Rebalance in one sheet. Stop loss and take profit are built and paused until an on-chain price check ships | Auto-rebalance, auto-compound, take profit, stop loss, MEV Boost, backtesting |
 | Where your position lives | In your own wallet. You sign every action | Automations run through HawkFi-managed accounts and a HawkFi wallet |
-| Fee | 3% of the fees you claim. Nothing on deposits, swaps or withdrawals | 8% of yield. 0% on deposits and withdrawals |
+| Fee | 3% of the fees you claim, 1% on Robinhood Chain. Nothing on deposits, swaps or withdrawals | 8% of yield on Solana, 4% on Robinhood Chain. 0% on deposits and withdrawals |
 | Rewards | Tidepool points (100 per $1 of fees claimed), referral codes | Referral codes |
 
 ## The social layer of LPing
@@ -39,7 +39,7 @@ HawkFi's docs describe no profiles, feed, leaderboard or copying. Its bots manag
 
 ## Cheaper
 
-Both apps take a share of the fees you earn, not of your deposit. Tidepool takes 3%. HawkFi takes 8%. On $1,000 of fees, that is $30 against $80. A copied position adds the 2% creator share, which is 5% in total and still less than HawkFi.
+Both apps take a share of the fees you earn, not of your deposit. Tidepool takes 3%. HawkFi takes 8%. On $1,000 of fees, that is $30 against $80. On Robinhood Chain it is 1% against 4%: $10 against $40. A copied position adds the 2% creator share, which is 5% in total and still less than HawkFi.
 
 ## When HawkFi is the better choice
 

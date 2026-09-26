@@ -23,7 +23,7 @@ These pages are Markdown copies of the pages on tidepool.ag. The website is the 
 - Chains: Solana, Base, Robinhood Chain (chain id 4663), Arc (chain id 5042, gas in USDC). Ethereum mainnet: track, claim and close.
 - DEXes: Meteora DLMM, Meteora DAMM v2, Uniswap v3, Uniswap v4.
 - Non-custodial: you sign every transaction in your own wallet. Tidepool never holds keys or funds.
-- Pricing: 3% of fees claimed through the app. No subscription, no token.
+- Pricing: 3% of fees claimed through the app (1% on Robinhood Chain). No subscription, no token.
 - Not related to Tidepool.org.
 
 ## License

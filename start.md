@@ -26,7 +26,7 @@ You do not need a big bag to provide liquidity. $20 is enough to learn how it wo
 
 | Cost | How much |
 | --- | --- |
-| Tidepool fee | 3% of the fees you claim, paid inside the claim. 2.7% if you were invited. Nothing on deposits, swaps or closes of your own money. |
+| Tidepool fee | 3% of the fees you claim (1% on Robinhood Chain), paid inside the claim. 10% less if you were invited. Nothing on deposits, swaps or closes of your own money. |
 | Network fees | Cents on Solana, Base, Robinhood Chain, Arc and HyperEVM. |
 | Meteora position deposit | About 0.057 SOL per position, returned when you close. Opening in a brand-new price area can cost a little SOL that is not returned; the review screen shows it. |
 | Swap on entry | The normal pool fee on the half that is swapped. The review screen shows it. |

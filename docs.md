@@ -109,7 +109,7 @@ It works through a one-time approval. The contract can remove your liquidity and
 
 ## Fees
 
-3% of every claim, paid in SOL or ETH value inside the claim, close or zap transaction. No subscription, no fee on swaps, no fee on deposits.
+3% of every claim (1% on Robinhood Chain), paid in SOL or ETH value inside the claim, close or zap transaction. No subscription, no fee on swaps, no fee on deposits.
 
 ## Safety rules
 
