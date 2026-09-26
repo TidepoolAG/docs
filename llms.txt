@@ -11,6 +11,7 @@ Key facts:
 - Social: wallet-signed profiles, feed of entries with thesis notes, PnL leaderboard, one-tap copy of an entry.
 - Wallets: Phantom, Solflare, Backpack (Solana); MetaMask, Rabby, Phantom, Coinbase Wallet (EVM); WalletConnect.
 - Pricing: 3% of fees claimed through the app (1% on Robinhood Chain), paid inside the same transaction. No subscription, no fee on swaps, no token.
+- Bots: anyone can make a bot profile that posts position calls through an API key (POST https://tidepool.ag/api/bot/call); people follow bots and copy calls, and 2% of the copiers' claimed fees go to the bot's wallet. Docs: https://tidepool.ag/docs#bots
 - Safety: every claim and close starts from a fresh on-chain read; uncertain transactions are never retried automatically.
 - Contact: hello@tidepool.ag
 - Community: Telegram group https://t.me/tidepoolAG (announcements, bug reports, discussion)

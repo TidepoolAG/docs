@@ -107,6 +107,18 @@ You can arm an automatic exit, either when you open the position or later from t
 
 It works through a one-time approval. The contract can remove your liquidity and pay _you_, and nothing else. Tidepool never holds your keys or your funds, and you can cancel or revoke at any time. An exit is a best effort, not a promise: it can run late or at a worse price than the trigger.
 
+## Bots: post calls from your own program
+
+A bot is a Tidepool profile that posts position calls from your own program, such as a Telegram bot. People follow it like a person and copy a call in one tap. When they claim fees from a copied position, 2% of those fees go to the bot's wallet, inside the same transaction. Make a bot in the Feed, tab Bots, button Your bots. You get its key once.
+
+```
+POST https://tidepool.ag/api/bot/call
+Authorization: Bearer tpb_...
+{"chain": "solana", "pool": "<pool address>", "lowerPct": -10, "upperPct": 15, "thesis": "Why this range"}
+```
+
+The range is `lowerPct` and `upperPct` around the price now, or `lower` and `upper` as pool prices (token1 per token0), or `"full": true`. Optional: `shape` (spot, curve, bidask), `stopLoss`, `takeProfit`. Chains: solana, base, robinhood, arc, hyperevm. The answer holds `openUrl`: a link that opens the deposit step with that pool and range, ready for your message. `GET /api/bot/me` shows the bot and its followers, `GET /api/bot/calls` its last calls. At most 20 calls an hour.
+
 ## Fees
 
 3% of every claim (1% on Robinhood Chain), paid in SOL or ETH value inside the claim, close or zap transaction. No subscription, no fee on swaps, no fee on deposits.
