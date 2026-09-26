@@ -144,3 +144,16 @@ Swaps go through Jupiter on Solana and the Uniswap routers on EVM chains. Bridge
 ---
 
 Source: [tidepool.ag/docs](https://tidepool.ag/docs). The website is the canonical version of this page.
+
+## FAQ
+
+### What access does Tidepool get when I connect my wallet?
+
+Connecting only shares your public wallet address. That lets Tidepool read your positions and balances. It gives no permission to move anything. After that, your wallet asks you every time:
+
+-   **Profile sign-in.** You sign a text message. It is free, it is not a transaction, and it cannot move funds. It only proves the wallet is yours.
+-   **Open, claim, close, swap.** Each one is a normal transaction that you see and approve in your wallet. The Tidepool fee (1% on Robinhood Chain, 3% elsewhere, only on claimed fees) is inside the same transaction, so you see it before you sign.
+-   **EVM token approvals.** The first time you use a token in a Uniswap pool, your wallet asks for an approval. It goes to Uniswap's own contracts (the position manager and Permit2), not to a Tidepool wallet. You can revoke it at any time, for example on revoke.cash.
+-   **Stop loss and take profit.** This is the only feature that needs a standing permission, and only if you turn it on for a position. It is paused right now.
+
+Tidepool never asks for your seed phrase or private key, and it never holds your funds. Your positions stay in your own wallet.
