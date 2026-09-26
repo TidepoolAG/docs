@@ -17,14 +17,13 @@ The positions. A Uniswap v3 position is an NFT from the NonfungiblePositionManag
 | One-token entry | Swap through the pool you are entering, then mint | Both tokens |
 | Zap out | Burn and swap to one token in one flow | Remove, then swap |
 | v4 hook fees | Reads the real fee from swap events for dynamic-fee hooks; hides pools that pay LPs nothing | Shows the pool key fee |
-| Tokenized stocks | Filter for Robinhood tokens, Base equity tokens, Dinari, Ondo | No filter |
 | Watch any address | Yes, read-only | Connect wallet |
 | Bridging | Relay inside the app, including to Solana | Uniswap bridge for EVM chains |
 | Fee | 3% of claimed fees (1% on Robinhood Chain) | Interface fee on swaps |
 
 ## Robinhood Chain
 
-Tidepool supports Uniswap v3 and v4 on Robinhood Chain (chain id 4663), including the tokenized stock pools. Robinhood Chain is an Arbitrum Nitro chain, so Tidepool ignores priority fees there and orders by arrival. See the [Robinhood Chain LP guide](../guides/robinhood-chain-liquidity.md).
+Tidepool supports Uniswap v3 and v4 on Robinhood Chain (chain id 4663). Robinhood Chain is an Arbitrum Nitro chain, so Tidepool ignores priority fees there and orders by arrival. See the [Robinhood Chain LP guide](../guides/robinhood-chain-liquidity.md).
 
 ## When to stay in the Uniswap app
 

@@ -1,6 +1,6 @@
 # Cross-chain LP management
 
-Concentrated liquidity pays the best fees in DeFi, and the best pools are not all on one chain. Meteora DLMM on Solana, Uniswap v4 on Base, tokenized stocks on Robinhood Chain. This guide explains how to hold positions on all three without three apps, three tabs and three mental models.
+Concentrated liquidity pays the best fees in DeFi, and the best pools are not all on one chain. Meteora DLMM on Solana, Uniswap v4 on Base, Uniswap v3 and v4 on Robinhood Chain. This guide explains how to hold positions on all three without three apps, three tabs and three mental models.
 
 ## The problem
 

@@ -35,7 +35,7 @@ HawkFi's docs describe no profiles, feed, leaderboard or copying. Its bots manag
 -   **One app, one flow.** Opening a Uniswap v4 position on Base works the same as a Meteora position on Solana. You do not learn a second product.
 -   **The bridge is built in.** Funds on the wrong chain? Tidepool bridges them in the same flow. HawkFi's docs have no bridge, and its Robinhood guide asks you to have ETH on that chain already.
 -   **One portfolio.** Positions on Solana, Base, Robinhood Chain, Arc and Ethereum in one list, with Claim all across every chain.
--   **Tokenized stocks.** xStocks on Solana and Robinhood tokens on Robinhood Chain are marked and can be filtered, and Uniswap v4 hook fees are read correctly.
+-   **Uniswap v4 hooks.** Hook fees are read from the swaps, so a pool that pays LPs nothing is not ranked as if it did.
 
 ## Cheaper
 

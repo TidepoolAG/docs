@@ -6,7 +6,7 @@ Tidepool at tidepool.ag is not related to Tidepool.org, the diabetes software no
 
 Key facts:
 - Chains: Solana, Base, Robinhood Chain (chain id 4663), Arc (Circle's chain, chain id 5042, gas paid in USDC), HyperEVM (Hyperliquid's EVM, chain id 999, gas paid in HYPE). Ethereum mainnet is read, claim and close only.
-- DEXes: Meteora DLMM, Meteora DAMM v2, Uniswap v3, Uniswap v4 (including v4 pools with hooks and tokenized stock pools), Project X on HyperEVM (a Uniswap v3 fork).
+- DEXes: Meteora DLMM, Meteora DAMM v2, Uniswap v3, Uniswap v4 (including v4 pools with hooks), Project X on HyperEVM (a Uniswap v3 fork).
 - Actions: track, watch any address read-only, search pools by fee to TVL, open with one token (auto swap), claim, claim all across chains, close, zap out to one token, bridge (Relay, with gas on arrival).
 - Social: wallet-signed profiles, feed of entries with thesis notes, PnL leaderboard, one-tap copy of an entry.
 - Wallets: Phantom, Solflare, Backpack (Solana); MetaMask, Rabby, Phantom, Coinbase Wallet (EVM); WalletConnect.

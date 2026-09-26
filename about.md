@@ -7,7 +7,7 @@ Concentrated-liquidity DEXes pay the best fees in DeFi, but each one has its own
 ## What you can do
 
 -   **Track.** Portfolio value, claimable fees, PnL per position, range and current price, on Solana, Base, Robinhood Chain and Arc together. Watch any address read-only, no wallet needed.
--   **Find pools.** Search by name or paste any pool or token address. Pools rank by fee to TVL, volume and age, with tokenized stocks (xStocks, Robinhood tokens) as a filter.
+-   **Find pools.** Search by name or paste any pool or token address. Pools rank by fee to TVL, volume and age.
 -   **Open.** A four-step wizard: pool, range, amount, confirm. Enter with one token and Tidepool swaps into the split the range needs, through Jupiter on Solana or the pool itself on EVM.
 -   **Claim.** One tap per position, or "Claim all" across every chain. Uniswap v3 claims can sell the fees to one token in the same transaction.
 -   **Close and zap out.** Close a position and swap everything to one token in one flow.

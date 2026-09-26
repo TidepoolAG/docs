@@ -1,6 +1,6 @@
 # How to provide liquidity on Robinhood Chain
 
-Robinhood Chain is an Ethereum layer 2 built on Arbitrum Nitro (chain id 4663, mainnet since July 2026). Uniswap v3 and v4 run there, and a large share of the volume is in tokenized stock pools. This guide covers what is different about LP on this chain and how to do it from Tidepool.
+Robinhood Chain is an Ethereum layer 2 built on Arbitrum Nitro (chain id 4663, mainnet since July 2026). Uniswap v3 and v4 run there. This guide covers what is different about LP on this chain and how to do it from Tidepool.
 
 ## What is on the chain
 
