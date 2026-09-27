@@ -117,7 +117,7 @@ Authorization: Bearer tpb_...
 {"chain": "solana", "pool": "<pool address>", "lowerPct": -10, "upperPct": 15, "thesis": "Why this range"}
 ```
 
-The range is `lowerPct` and `upperPct` around the price now, or `lower` and `upper` as pool prices (token1 per token0), or `"full": true`. Optional: `shape` (spot, curve, bidask), `stopLoss`, `takeProfit`. Chains: solana, base, robinhood, arc, hyperevm. The answer holds `openUrl`: a link that opens the deposit step with that pool and range, ready for your message. `GET /api/bot/me` shows the bot and its followers, `GET /api/bot/calls` its last calls. At most 20 calls an hour.
+Instead of `pool` you can give `token` (the token address): Tidepool then uses the pool with the most liquidity for that token on that chain, or against `quote` when you give one (a symbol such as SOL or USDC, or an address), and the answer names the pool it chose. The range is `lowerPct` and `upperPct` around the price now, or `lower` and `upper` as pool prices (token1 per token0), or `"full": true`. Optional: `shape` (spot, curve, bidask), `stopLoss`, `takeProfit`. Chains: solana, base, robinhood, arc, hyperevm. The answer holds `openUrl`: a link that opens the deposit step with that pool and range, ready for your message. `GET /api/bot/me` shows the bot and its followers, `GET /api/bot/calls` its last calls. At most 20 calls an hour.
 
 ## Fees
 
