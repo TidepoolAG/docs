@@ -21,6 +21,7 @@ Key facts:
 - [Get started](https://tidepool.ag/start): your first LP position in 5 minutes from $20: wallet, funds, pool, range, claim, close; costs and risks
 - [What is Tidepool](https://tidepool.ag/about): definition, features, chains, pricing, FAQ
 - [Docs](https://tidepool.ag/docs): what providing liquidity is, why the price range decides the outcome, what an LP earns and risks, a walk through opening a position, and how claiming, closing, rebalancing and automatic exits work
+- [Security](https://tidepool.ag/security): no keys or funds held, the programs and contracts your transactions use, the verified TidepoolExit stop-loss contract (0xdB452848e20Fc0429eCF8998E2Ad69B92df9594b on Base, Robinhood Chain and Arc, Sourcify exact match), fee wallets, approvals, how to report a problem
 - [Tidepool vs HawkFi](https://tidepool.ag/compare/hawkfi): the social layer of LPing (feed, leaderboard, copy with creator share) and one flow across four chains, versus an LP automation terminal for Solana and Robinhood Chain; 3% versus 8% of fees on Solana, 1% versus 4% on Robinhood Chain
 - [Tidepool vs the Meteora app](https://tidepool.ag/compare/meteora-app)
 - [Tidepool vs the Uniswap app](https://tidepool.ag/compare/uniswap-app)

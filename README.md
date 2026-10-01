@@ -11,6 +11,7 @@ These pages are Markdown copies of the pages on tidepool.ag. The website is the 
 - [Get started](start.md): your first LP position in 5 minutes from $20
 - [What is Tidepool](about.md): features, chains, pricing, FAQ
 - [Docs](docs.md): what providing liquidity is, why the range decides the outcome, what an LP earns and risks, how opening, claiming, closing, rebalancing and exits work
+- [Security](security.md): what you sign, the programs and contracts your transactions use, the verified TidepoolExit contract, fees, approvals, how to report a problem
 - [Tidepool vs HawkFi](compare/hawkfi.md)
 - [Tidepool vs the Meteora app](compare/meteora-app.md)
 - [Tidepool vs the Uniswap app](compare/uniswap-app.md)
